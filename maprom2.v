@@ -1,5 +1,5 @@
-`ifndef _maprom1_incl
-`define _maprom1_incl
+`ifndef _maprom2_incl
+`define _maprom2_incl
 
 /*
  *   Maze rom file #2.
@@ -8,11 +8,11 @@
  *   Closed cell is marked as False (0)
  */
 
-module maprom(clk, en, addr, data);
+module maprom2(clk, en, addr, data);
 	input clk;
 	input en;
 	input [2:0] addr;
-	output reg [8:0] data;
+	output reg [7:0] data;
 
 	always @(posedge clk)
 	begin
