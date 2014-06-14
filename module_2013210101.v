@@ -1,11 +1,5 @@
-`ifndef _main_incl
-`define _main_incl
-
-`include "maprom.v"
-
 //Use tremux algorithm to solve maze.
 //
-
 
 module module_2013210101 (clk, reset, curpos, finish);
 	input clk;
@@ -20,6 +14,3 @@ module module_2013210101 (clk, reset, curpos, finish);
 	end
 
 endmodule
-
-
-`endif

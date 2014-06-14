@@ -1,6 +1,3 @@
-`ifndef _maprom2_incl
-`define _maprom2_incl
-
 /*
  *   Maze rom file #2.
  *   Format: each byte indicates maps row.
@@ -44,5 +41,3 @@ module maprom2(clk, en, addr, data);
 		end
 	end
 endmodule
-		
-`endif

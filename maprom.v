@@ -1,6 +1,3 @@
-`ifndef _maprom_def
-`define _maprom_def
-
 /*
  *	 Map selector.
  *   Format: each byte indicates maps row.
@@ -17,10 +14,6 @@
  *   End point address   : 0b1001
  *
  */
-
-//`include "maprom1.v"
-//`include "maprom2.v"
-//`include "maprom3.v"
 
 module maprom (clk, chipsel, addr, data);
 	input clk;
@@ -40,5 +33,3 @@ module maprom (clk, chipsel, addr, data);
 	end
 
 endmodule
-
-`endif
