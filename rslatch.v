@@ -1,6 +1,3 @@
-`ifndef _rslatch_incl
-`define _rslatch_incl
-
 module rslatch (r, s, c, q, nq);
 	input r;
 	input s;
@@ -16,5 +13,3 @@ module rslatch (r, s, c, q, nq);
 	nand (nq, q, w2);
 	nand (q, nq, w1);
 endmodule
-
-`endif

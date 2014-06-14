@@ -1,11 +1,7 @@
-`ifndef _rslatch_tb_incl
-`define _rslatch_tb_incl
-
-`include "simulargs.v"
-`include "rslatch.v"
+`include "simulargs_incl.v"
 
 module testbench;
-`include "simulutil.v"
+`include "simulutil_incl.v"
 	reg r;
 	reg s;
 	wire q;
@@ -56,5 +52,3 @@ module testbench;
 		end
 	end
 endmodule
-
-`endif

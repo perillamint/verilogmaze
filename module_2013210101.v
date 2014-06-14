@@ -3,6 +3,10 @@
 
 `include "maprom.v"
 
+//Use tremux algorithm to solve maze.
+//
+
+
 module module_2013210101 (clk, reset, curpos, finish);
 	input clk;
 	input reset;
@@ -11,7 +15,10 @@ module module_2013210101 (clk, reset, curpos, finish);
 
 	//TODO: pathfinding routine;
 
-	//
+	always @ (posedge clk)
+	begin
+	end
+
 endmodule
 
 
